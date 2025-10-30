@@ -1,0 +1,129 @@
+@import '../variables.scss';
+
+/* Seccion8 styles - Bonos de regalo */
+.seccion8 {
+  padding: 80px 15%;
+  background: linear-gradient(135deg, #fff9f0 0%, #ffe8d6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion8-main-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: $color-cafe;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: $font-title;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.seccion8-bonuses-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.seccion8-bonus-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, $color-cafe 0%, $color-oscuro 100%);
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(208, 135, 46, 0.3);
+    border-color: $color-cafe;
+  }
+}
+
+.seccion8-bonus-icon {
+  font-size: 60px;
+  margin-bottom: 15px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.seccion8-star-icon {
+  font-size: 30px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+}
+
+.seccion8-bonus-title {
+  font-size: 20px;
+  color: $color-oscuro;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 0;
+  font-family: $font-title;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .seccion8-bonuses-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .seccion8 {
+    padding: 60px 8%;
+  }
+
+  .seccion8-main-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .seccion8-bonuses-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .seccion8-bonus-card {
+    padding: 35px 25px;
+  }
+
+  .seccion8-bonus-icon {
+    font-size: 50px;
+  }
+
+  .seccion8-star-icon {
+    font-size: 25px;
+  }
+
+  .seccion8-bonus-title {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,42 @@
+// Main SCSS file
+@import './variables.scss';
+
+
+// Import components
+@import 'components/header';
+@import 'components/portada';
+@import 'components/seccion1';
+@import 'components/seccion2';
+@import 'components/seccion3';
+@import 'components/seccion4';
+@import 'components/seccion5';
+@import 'components/seccion6';
+@import 'components/seccion7';
+@import 'components/seccion8';
+@import 'components/seccion9';
+@import 'components/seccion10';
+@import 'components/seccion11';
+@import 'components/footer';
+
+// Global styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-text;
+    color: #333;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-title;
+    color: $color-oscuro;
+}
+
+p {
+    @include text-body;
+}

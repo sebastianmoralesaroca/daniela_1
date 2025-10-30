@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+/* Seccion6 styles - Resultados a obtener */
+.seccion6 {
+  padding: 80px 15%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion6-main-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #D0872E;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Cinzel", serif;
+}
+
+.seccion6-subtitle {
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.seccion6-results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px 0;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.seccion6-result-item {
+  font-size: 17px;
+  color: #444;
+  line-height: 1.6;
+  padding: 15px 20px;
+  padding-left: 50px;
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.seccion6-result-item::before {
+  content: "✔️";
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.seccion6-result-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(208, 135, 46, 0.15);
+}
+
+.seccion6-reflection {
+  max-width: 800px;
+  margin: 30px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.seccion6-reflection-text {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.7;
+  text-align: center;
+  font-style: italic;
+}
+
+.seccion6-final-message {
+  font-size: 20px;
+  color: #432004;
+  line-height: 1.7;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  font-family: "Cinzel", serif;
+}
+
+.seccion6-cta-button {
+  background-color: #D0872E;
+  color: white;
+  border: none;
+  padding: 18px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
+}
+.seccion6-cta-button:hover {
+  background-color: #432004;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(208, 135, 46, 0.4);
+}
+.seccion6-cta-button:active {
+  transform: translateY(-1px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .seccion6 {
+    padding: 60px 8%;
+  }
+  .seccion6-main-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .seccion6-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .seccion6-results-list {
+    margin-bottom: 40px;
+    gap: 15px;
+  }
+  .seccion6-result-item {
+    font-size: 16px;
+    padding: 12px 18px;
+    padding-left: 45px;
+  }
+  .seccion6-result-item::before {
+    font-size: 18px;
+    left: 15px;
+  }
+  .seccion6-reflection {
+    margin: 25px 0 35px 0;
+    gap: 18px;
+  }
+  .seccion6-reflection-text {
+    font-size: 16px;
+  }
+  .seccion6-final-message {
+    font-size: 18px;
+  }
+  .seccion6-cta-button {
+    padding: 16px 40px;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=seccion6.css.map */

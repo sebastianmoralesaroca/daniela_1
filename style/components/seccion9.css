@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+/* Seccion9 styles - Planes y precios */
+.seccion9 {
+  padding: 80px 15%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion9-main-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #432004;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Cinzel", serif;
+}
+
+.seccion9-subtitle {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Cinzel", serif;
+}
+
+.seccion9-plans-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.seccion9-plan-card {
+  background: white;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+  position: relative;
+}
+.seccion9-plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.seccion9-plan-card.popular {
+  border-color: #D0872E;
+  box-shadow: 0 10px 40px rgba(208, 135, 46, 0.3);
+}
+.seccion9-plan-card.popular:hover {
+  box-shadow: 0 15px 50px rgba(208, 135, 46, 0.4);
+}
+
+.seccion9-popular-badge {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  background: linear-gradient(135deg, #D0872E 0%, #432004 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(208, 135, 46, 0.4);
+}
+
+.seccion9-plan-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #432004;
+  margin-bottom: 25px;
+  font-family: "Cinzel", serif;
+}
+
+.seccion9-price-container {
+  margin-bottom: 30px;
+}
+
+.seccion9-price {
+  font-size: 48px;
+  font-weight: bold;
+  color: #D0872E;
+  margin-bottom: 5px;
+  font-family: "Cinzel", serif;
+}
+
+.seccion9-period {
+  font-size: 16px;
+  color: #777;
+  font-style: italic;
+}
+
+.seccion9-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 35px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.seccion9-feature-item {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  padding-left: 30px;
+  position: relative;
+  text-align: left;
+}
+.seccion9-feature-item::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  color: #D0872E;
+  font-weight: bold;
+}
+
+.seccion9-cta-button {
+  background-color: #D0872E;
+  color: white;
+  border: none;
+  padding: 16px 45px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 250px;
+}
+.seccion9-cta-button:hover {
+  background-color: #432004;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(208, 135, 46, 0.4);
+}
+.seccion9-cta-button:active {
+  transform: translateY(0);
+}
+
+.seccion9-plan-card.popular .seccion9-cta-button {
+  background: linear-gradient(135deg, #D0872E 0%, #432004 100%);
+  box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
+}
+.seccion9-plan-card.popular .seccion9-cta-button:hover {
+  background: linear-gradient(135deg, #432004 0%, #D0872E 100%);
+  box-shadow: 0 6px 20px rgba(208, 135, 46, 0.5);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .seccion9 {
+    padding: 60px 8%;
+  }
+  .seccion9-main-title {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  .seccion9-subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .seccion9-plans-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .seccion9-plan-card {
+    padding: 35px 25px;
+  }
+  .seccion9-plan-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .seccion9-price {
+    font-size: 40px;
+  }
+  .seccion9-period {
+    font-size: 14px;
+  }
+  .seccion9-features-list {
+    margin-bottom: 30px;
+    gap: 12px;
+  }
+  .seccion9-feature-item {
+    font-size: 15px;
+  }
+  .seccion9-cta-button {
+    padding: 14px 40px;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=seccion9.css.map */

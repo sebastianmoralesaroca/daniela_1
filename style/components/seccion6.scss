@@ -1,0 +1,144 @@
+@import '../variables.scss';
+
+/* Seccion6 styles - Resultados a obtener */
+.seccion6 {
+  padding: 80px 15%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion6-main-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: $color-cafe;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: $font-title;
+}
+
+.seccion6-subtitle {
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.seccion6-results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px 0;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.seccion6-result-item {
+  font-size: 17px;
+  color: #444;
+  line-height: 1.6;
+  padding: 15px 20px;
+  padding-left: 50px;
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &::before {
+    content: '✔️';
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+
+  &:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(208, 135, 46, 0.15);
+  }
+}
+
+.seccion6-reflection {
+  max-width: 800px;
+  margin: 30px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.seccion6-reflection-text {
+  @include text-body;
+  text-align: center;
+  font-style: italic;
+}
+
+.seccion6-final-message {
+  font-size: 20px;
+  color: $color-oscuro;
+  line-height: 1.7;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  font-family: $font-title;
+}
+
+.seccion6-cta-button {
+  @include button-primary;
+  margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .seccion6 {
+    padding: 60px 8%;
+  }
+
+  .seccion6-main-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .seccion6-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .seccion6-results-list {
+    margin-bottom: 40px;
+    gap: 15px;
+  }
+
+  .seccion6-result-item {
+    font-size: 16px;
+    padding: 12px 18px;
+    padding-left: 45px;
+
+    &::before {
+      font-size: 18px;
+      left: 15px;
+    }
+  }
+
+  .seccion6-reflection {
+    margin: 25px 0 35px 0;
+    gap: 18px;
+  }
+
+  .seccion6-reflection-text {
+    font-size: 16px;
+  }
+
+  .seccion6-final-message {
+    font-size: 18px;
+  }
+
+  .seccion6-cta-button {
+    padding: 16px 40px;
+    font-size: 16px;
+  }
+}

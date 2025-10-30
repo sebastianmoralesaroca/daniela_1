@@ -1,0 +1,88 @@
+@import '../variables.scss';
+
+/* Seccion7 styles - Punto de decisión */
+.seccion7 {
+  padding: 100px 15%;
+  background: linear-gradient(135deg, #f5f0e8 0%, #e8dcc8 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.seccion7-content {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.seccion7-paragraph {
+  font-size: 20px;
+  color: #444;
+  line-height: 1.8;
+  margin: 0;
+  font-family: $font-title;
+
+  &.highlight {
+    font-size: 22px;
+    font-weight: 600;
+    color: $color-oscuro;
+    font-style: italic;
+  }
+}
+
+.seccion7-final-message {
+  font-size: 24px;
+  color: $color-oscuro;
+  line-height: 1.7;
+  font-weight: 700;
+  margin: 20px 0 30px 0;
+  font-family: $font-title;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.seccion7-cta-button {
+  @include button-primary;
+  padding: 20px 60px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .seccion7 {
+    padding: 70px 8%;
+    min-height: 400px;
+  }
+
+  .seccion7-content {
+    gap: 25px;
+  }
+
+  .seccion7-paragraph {
+    font-size: 17px;
+
+    &.highlight {
+      font-size: 19px;
+    }
+  }
+
+  .seccion7-final-message {
+    font-size: 20px;
+    margin: 15px 0 25px 0;
+    padding: 25px;
+  }
+
+  .seccion7-cta-button {
+    padding: 18px 45px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+  }
+}

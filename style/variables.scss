@@ -1,0 +1,102 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+$font-logo: 'Bodoni Moda', serif;
+$font-title: 'Cinzel', serif;
+$font-text: sans-serif;
+
+
+// color
+$color-cafe: #D0872E;
+$color-oscuro: #8C4C18;
+$color-prueba: #155DFC;
+
+
+// Mixins para títulos
+@mixin title-main {
+  font-size: 42px;
+  font-weight: bold;
+  color: $color-oscuro;
+  font-family: $font-title;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+@mixin title-section {
+  font-size: 36px;
+  font-weight: bold;
+  color: $color-oscuro;
+  font-family: $font-title;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+@mixin title-subsection {
+  font-size: 24px;
+  font-weight: 600;
+  color: $color-oscuro;
+  font-family: $font-title;
+  line-height: 1.4;
+}
+
+// Mixin para texto
+@mixin text-body {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  font-family: $font-text;
+}
+
+// Mixin para botones
+@mixin button-primary {
+  background-color: $color-cafe;
+  color: white;
+  border: none;
+  padding: 18px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
+  font-family: $font-title;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    background-color: $color-oscuro;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(208, 135, 46, 0.4);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+}
+
+@mixin button-secondary {
+  background-color: transparent;
+  color: $color-cafe;
+  border: 2px solid $color-cafe;
+  padding: 16px 45px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: $font-title;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    background-color: $color-cafe;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}

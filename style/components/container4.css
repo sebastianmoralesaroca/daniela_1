@@ -1,0 +1,70 @@
+/* Container5 styles */
+.container5 {
+  padding: 80px 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container5-main-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container5-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.container5-section {
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.container5-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 15px 0;
+}
+
+.container5-paragraph {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container5 {
+    padding: 60px 20px;
+  }
+  .container5-main-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .container5-sections {
+    gap: 20px;
+  }
+  .container5-section {
+    padding: 25px 20px;
+  }
+  .container5-subtitle {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .container5-paragraph {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=container4.css.map */

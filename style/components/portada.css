@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+/* Portada styles */
+.portada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  min-height: 400px;
+}
+
+.portada-image {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portada-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #155DFC;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  min-width: 80px;
+}
+
+.time-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.time-label {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}/*# sourceMappingURL=portada.css.map */

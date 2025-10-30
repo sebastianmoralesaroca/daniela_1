@@ -1,0 +1,32 @@
+/* Container2 styles */
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 200px;
+  background-color: #f5f5f5;
+  gap: 40px;
+  align-items: center;
+}
+
+.container2-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container2-right h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.container2-right p {
+  margin-bottom: 30px;
+  color: #666;
+  line-height: 1.6;
+}/*# sourceMappingURL=container2.css.map */

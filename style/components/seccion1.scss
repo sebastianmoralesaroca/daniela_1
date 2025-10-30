@@ -1,0 +1,61 @@
+@import '../variables.scss';
+
+/* Seccion1 styles */
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 10%;
+  background: linear-gradient(135deg, #fff9f0 0%, #ffffff 100%);
+  gap: 60px;
+  align-items: center;
+  min-height: 600px;
+}
+
+.container2-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.container2-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container2-right h2 {
+  @include title-section;
+}
+
+.container2-right p {
+  @include text-body;
+  margin-bottom: 10px;
+}
+
+.container2-cta-button {
+  @include button-primary;
+  margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 968px) {
+  .container2 {
+    grid-template-columns: 1fr;
+    padding: 60px 8%;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container2 {
+    padding: 40px 6%;
+  }
+}

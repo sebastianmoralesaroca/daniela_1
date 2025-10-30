@@ -1,0 +1,49 @@
+.container9 {
+  padding: 60px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+}
+.container9 .container9-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.container9 .container9-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.container9 .container9-form .container9-name-input,
+.container9 .container9-form .container9-lastName-input,
+.container9 .container9-form .container9-email-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  width: 300px;
+  color: #fff;
+}
+.container9 .container9-form .container9-name-input::-moz-placeholder, .container9 .container9-form .container9-lastName-input::-moz-placeholder, .container9 .container9-form .container9-email-input::-moz-placeholder {
+  color: #ccc;
+}
+.container9 .container9-form .container9-name-input::placeholder,
+.container9 .container9-form .container9-lastName-input::placeholder,
+.container9 .container9-form .container9-email-input::placeholder {
+  color: #ccc;
+}
+.container9 .container9-form .container9-submit-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container9 .container9-form .container9-submit-button:hover {
+  background-color: #4cae4c;
+}/*# sourceMappingURL=container9.css.map */

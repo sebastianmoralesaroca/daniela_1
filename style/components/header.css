@@ -1,0 +1,26 @@
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  color: #333;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.logo img {
+  height: 35px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=header.css.map */
