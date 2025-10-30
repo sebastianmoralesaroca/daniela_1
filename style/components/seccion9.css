@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 /* Seccion9 styles - Planes y precios */
 .seccion9 {
   padding: 80px 15%;
@@ -12,7 +13,7 @@
 .seccion9-main-title {
   font-size: 42px;
   font-weight: bold;
-  color: #432004;
+  color: #8C4C18;
   text-align: center;
   margin-bottom: 15px;
   font-family: "Cinzel", serif;
@@ -63,7 +64,7 @@
   position: absolute;
   top: -15px;
   right: 20px;
-  background: linear-gradient(135deg, #D0872E 0%, #432004 100%);
+  background: linear-gradient(135deg, #D0872E 0%, #8C4C18 100%);
   color: white;
   padding: 8px 20px;
   border-radius: 20px;
@@ -75,7 +76,7 @@
 .seccion9-plan-name {
   font-size: 28px;
   font-weight: bold;
-  color: #432004;
+  color: #8C4C18;
   margin-bottom: 25px;
   font-family: "Cinzel", serif;
 }
@@ -130,30 +131,34 @@
   background-color: #D0872E;
   color: white;
   border: none;
-  padding: 16px 45px;
+  padding: 18px 50px;
   font-size: 18px;
   font-weight: bold;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   width: 100%;
   max-width: 250px;
 }
 .seccion9-cta-button:hover {
-  background-color: #432004;
-  transform: translateY(-2px);
+  background-color: #8C4C18;
+  transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(208, 135, 46, 0.4);
 }
 .seccion9-cta-button:active {
-  transform: translateY(0);
+  transform: translateY(-1px);
 }
 
 .seccion9-plan-card.popular .seccion9-cta-button {
-  background: linear-gradient(135deg, #D0872E 0%, #432004 100%);
+  background: linear-gradient(135deg, #D0872E 0%, #8C4C18 100%);
   box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
 }
 .seccion9-plan-card.popular .seccion9-cta-button:hover {
-  background: linear-gradient(135deg, #432004 0%, #D0872E 100%);
+  background: linear-gradient(135deg, #8C4C18 0%, #D0872E 100%);
   box-shadow: 0 6px 20px rgba(208, 135, 46, 0.5);
 }
 

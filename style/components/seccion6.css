@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 /* Seccion6 styles - Resultados a obtener */
 .seccion6 {
   padding: 80px 15%;
@@ -72,14 +73,15 @@
 .seccion6-reflection-text {
   font-size: 18px;
   color: #555;
-  line-height: 1.7;
+  line-height: 1.8;
+  font-family: sans-serif;
   text-align: center;
   font-style: italic;
 }
 
 .seccion6-final-message {
   font-size: 20px;
-  color: #432004;
+  color: #8C4C18;
   line-height: 1.7;
   text-align: center;
   font-weight: 600;
@@ -97,11 +99,14 @@
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 20px;
   box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
 }
 .seccion6-cta-button:hover {
-  background-color: #432004;
+  background-color: #8C4C18;
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(208, 135, 46, 0.4);
 }

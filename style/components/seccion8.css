@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+/* Seccion8 styles - Bonos de regalo */
+.seccion8 {
+  padding: 80px 15%;
+  background: linear-gradient(135deg, #fff9f0 0%, #ffe8d6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion8-main-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #D0872E;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Cinzel", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.seccion8-bonuses-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.seccion8-bonus-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+.seccion8-bonus-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #D0872E 0%, #8C4C18 100%);
+}
+.seccion8-bonus-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 35px rgba(208, 135, 46, 0.3);
+  border-color: #D0872E;
+}
+
+.seccion8-bonus-icon {
+  font-size: 60px;
+  margin-bottom: 15px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.seccion8-star-icon {
+  font-size: 30px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+}
+
+.seccion8-bonus-title {
+  font-size: 20px;
+  color: #8C4C18;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Cinzel", serif;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .seccion8-bonuses-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .seccion8 {
+    padding: 60px 8%;
+  }
+  .seccion8-main-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .seccion8-bonuses-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .seccion8-bonus-card {
+    padding: 35px 25px;
+  }
+  .seccion8-bonus-icon {
+    font-size: 50px;
+  }
+  .seccion8-star-icon {
+    font-size: 25px;
+  }
+  .seccion8-bonus-title {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=seccion8.css.map */

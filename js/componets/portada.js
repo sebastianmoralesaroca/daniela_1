@@ -43,19 +43,19 @@ function createPortada() {
         countdown.innerHTML = `
             <div class="time-box">
                 <span class="time-value">${days}</span>
-                <span class="time-label">Días</span>
+                <span class="time-label"><span class="label-full">Días</span><span class="label-short">Días</span></span>
             </div>
             <div class="time-box">
                 <span class="time-value">${hours}</span>
-                <span class="time-label">Horas</span>
+                <span class="time-label"><span class="label-full">Horas</span><span class="label-short">Horas</span></span>
             </div>
             <div class="time-box">
                 <span class="time-value">${minutes}</span>
-                <span class="time-label">Minutos</span>
+                <span class="time-label"><span class="label-full">Minutos</span><span class="label-short">Min</span></span>
             </div>
             <div class="time-box">
                 <span class="time-value">${seconds}</span>
-                <span class="time-label">Segundos</span>
+                <span class="time-label"><span class="label-full">Segundos</span><span class="label-short">Seg</span></span>
             </div>
         `;
     }

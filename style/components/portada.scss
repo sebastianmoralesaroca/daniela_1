@@ -89,3 +89,42 @@
   font-weight: 500;
   font-family: $font-title;
 }
+
+.label-short {
+  display: none;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .portada {
+    padding: 60px 5%;
+  }
+
+  .countdown {
+    gap: 6px;
+    width: 100%;
+  }
+
+  .time-box {
+    padding: 10px 8px;
+    min-width: 50px;
+    flex: 1;
+  }
+
+  .time-value {
+    font-size: 22px;
+  }
+
+  .time-label {
+    font-size: 9px;
+    margin-top: 3px;
+  }
+
+  .label-full {
+    display: none;
+  }
+
+  .label-short {
+    display: inline;
+  }
+}
