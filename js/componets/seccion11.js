@@ -12,7 +12,7 @@ function createSeccion11() {
 
     // Create title
     const title = document.createElement('h2');
-    title.textContent = 'Suscríbete a nuestro Newsletter';
+    title.textContent = 'Inscribete';
     title.className = 'seccion11-title';
 
     // Create subtitle

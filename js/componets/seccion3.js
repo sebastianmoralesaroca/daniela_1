@@ -8,7 +8,7 @@ function createContainer4() {
 
     // Create main title
     const mainTitle = document.createElement('h1');
-    mainTitle.textContent = 'Título Principal';
+    mainTitle.textContent = 'No eres tú. Son tus patrones';
     mainTitle.className = 'container4-main-title';
 
     // Create sections container

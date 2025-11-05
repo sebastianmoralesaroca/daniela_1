@@ -28,6 +28,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 header {
   display: flex;
   justify-content: space-between;
@@ -87,29 +89,22 @@ header h1:hover {
   justify-content: center;
   padding: 80px 10%;
   min-height: 500px;
-  background: linear-gradient(135deg, #fff9f0 0%, #ffe8d6 100%);
+  background-image: url("../../assets/img_5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
 }
 .portada::before {
   content: "";
   position: absolute;
-  top: -50%;
-  right: -20%;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, rgba(208, 135, 46, 0.1) 0%, transparent 70%);
-  border-radius: 50%;
-}
-.portada::after {
-  content: "";
-  position: absolute;
-  bottom: -30%;
-  left: -15%;
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(140, 76, 24, 0.08) 0%, transparent 70%);
-  border-radius: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 249, 240, 0.6);
+  z-index: 0;
 }
 
 .portada-image {
@@ -210,16 +205,32 @@ header h1:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 80px 10%;
-  background: linear-gradient(135deg, #fff9f0 0%, #ffffff 100%);
+  background-image: url("../../assets/img_4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   gap: 60px;
   align-items: center;
   min-height: 600px;
+}
+.container2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 0;
 }
 
 .container2-left {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 .container2-left img {
   width: 100%;
@@ -233,6 +244,8 @@ header h1:hover {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .container2-right h2 {
@@ -298,25 +311,41 @@ header h1:hover {
   align-items: center;
   min-height: 500px;
   padding: 80px 10%;
-  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+  background-image: url("../../assets/img_5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 0;
 }
 
 .container3-left {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #f5f0e8 0%, #e8dcc8 100%);
   height: 100%;
   border-radius: 20px;
   min-height: 450px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 .container3-left img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  display: block;
 }
 
 .container3-right {
@@ -325,6 +354,8 @@ header h1:hover {
   align-items: center;
   justify-content: center;
   padding: 8%;
+  position: relative;
+  z-index: 1;
 }
 
 .container3-content-wrapper {
@@ -635,90 +666,6 @@ header h1:hover {
   }
   .container4-secondary .secondary-text-list li {
     padding: 15px 18px;
-  }
-}
-/* Seccion5 styles - Qué incluye el plan */
-.seccion5 {
-  padding: 80px 15%;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.seccion5-main-title {
-  font-size: 42px;
-  font-weight: bold;
-  color: #8C4C18;
-  font-family: "Cinzel", serif;
-  line-height: 1.3;
-  margin-bottom: 20px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.seccion5-list-container {
-  width: 100%;
-  max-width: 900px;
-}
-
-.seccion5-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.seccion5-list-item {
-  font-size: 18px;
-  color: #555;
-  line-height: 1.8;
-  font-family: sans-serif;
-  padding: 20px 25px;
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  position: relative;
-  padding-left: 50px;
-  transition: all 0.3s ease;
-}
-.seccion5-list-item::before {
-  content: "✓";
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  color: #D0872E;
-  font-weight: bold;
-}
-.seccion5-list-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(208, 135, 46, 0.15);
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .seccion5 {
-    padding: 60px 8%;
-  }
-  .seccion5-main-title {
-    font-size: 28px;
-    margin-bottom: 40px;
-  }
-  .seccion5-list {
-    gap: 15px;
-  }
-  .seccion5-list-item {
-    font-size: 16px;
-    padding: 18px 20px;
-    padding-left: 45px;
-  }
-  .seccion5-list-item::before {
-    font-size: 20px;
-    left: 15px;
   }
 }
 /* Seccion6 styles - Resultados a obtener */
@@ -1095,10 +1042,24 @@ header h1:hover {
 /* Seccion9 styles - Planes y precios */
 .seccion9 {
   padding: 80px 15%;
-  background-color: #f5f5f5;
+  background-image: url("../../assets/img_6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.seccion9::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 0;
 }
 
 .seccion9-main-title {
@@ -1108,6 +1069,8 @@ header h1:hover {
   text-align: center;
   margin-bottom: 15px;
   font-family: "Cinzel", serif;
+  position: relative;
+  z-index: 1;
 }
 
 .seccion9-subtitle {
@@ -1116,6 +1079,8 @@ header h1:hover {
   text-align: center;
   margin-bottom: 50px;
   font-family: "Cinzel", serif;
+  position: relative;
+  z-index: 1;
 }
 
 .seccion9-plans-container {
@@ -1124,6 +1089,8 @@ header h1:hover {
   gap: 40px;
   width: 100%;
   max-width: 1000px;
+  position: relative;
+  z-index: 1;
 }
 
 .seccion9-plan-card {
@@ -1295,6 +1262,188 @@ header h1:hover {
     font-size: 16px;
   }
 }
+/* Seccion91 styles - Testimonios */
+.seccion91 {
+  padding: 100px 10%;
+  background: linear-gradient(135deg, #fff9f0 0%, #ffe8d6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.seccion91::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(208, 135, 46, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.seccion91::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(140, 76, 24, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.seccion91-main-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #8C4C18;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Cinzel", serif;
+  max-width: 800px;
+  line-height: 1.3;
+  position: relative;
+  z-index: 1;
+}
+
+.seccion91-subtitle {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+  max-width: 600px;
+  position: relative;
+  z-index: 1;
+}
+
+.seccion91-testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  width: 100%;
+  max-width: 1400px;
+  position: relative;
+  z-index: 1;
+}
+
+.seccion91-testimonial-card {
+  background: white;
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.3s ease;
+  border-left: 4px solid #D0872E;
+  position: relative;
+}
+.seccion91-testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(208, 135, 46, 0.15);
+}
+
+.seccion91-quote-icon {
+  font-size: 80px;
+  line-height: 0.5;
+  color: rgba(208, 135, 46, 0.15);
+  font-family: Georgia, serif;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  z-index: 0;
+}
+
+.seccion91-testimonial-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  font-family: sans-serif;
+  font-style: italic;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.seccion91-author-info {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 2px solid rgba(208, 135, 46, 0.1);
+}
+
+.seccion91-author-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8C4C18;
+  margin-bottom: 5px;
+  font-family: "Cinzel", serif;
+}
+
+.seccion91-author-location {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .seccion91-testimonials-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .seccion91 {
+    padding: 80px 8%;
+  }
+  .seccion91-main-title {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  .seccion91-subtitle {
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+  .seccion91-testimonials-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .seccion91-testimonial-card {
+    padding: 30px 25px;
+  }
+  .seccion91-quote-icon {
+    font-size: 60px;
+    top: 15px;
+    right: 20px;
+  }
+  .seccion91-testimonial-text {
+    font-size: 15px;
+  }
+  .seccion91-author-name {
+    font-size: 16px;
+  }
+  .seccion91-author-location {
+    font-size: 13px;
+  }
+}
+@media (max-width: 480px) {
+  .seccion91 {
+    padding: 60px 6%;
+  }
+  .seccion91-main-title {
+    font-size: 28px;
+  }
+  .seccion91-subtitle {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  .seccion91-testimonial-card {
+    padding: 25px 20px;
+  }
+}
 /* Seccion10 styles - Preguntas frecuentes */
 .seccion10 {
   padding: 80px 15%;
@@ -1416,11 +1565,25 @@ header h1:hover {
 /* Seccion11 styles - Newsletter */
 .seccion11 {
   padding: 100px 10%;
-  background-color: #ffffff;
+  background-image: url("../../assets/img_3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 500px;
+  position: relative;
+}
+.seccion11::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: 0;
 }
 
 .seccion11-left {
@@ -1429,6 +1592,8 @@ header h1:hover {
   gap: 30px;
   max-width: 600px;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .seccion11-title {
@@ -1443,7 +1608,7 @@ header h1:hover {
 
 .seccion11-subtitle {
   font-size: 18px;
-  color: #666;
+  color: #000000;
   line-height: 1.6;
   margin-bottom: 20px;
   font-family: sans-serif;
@@ -1467,7 +1632,7 @@ header h1:hover {
 .seccion11-label {
   font-size: 13px;
   font-weight: 600;
-  color: #999;
+  color: #000000;
   font-family: "Cinzel", serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1478,9 +1643,9 @@ header h1:hover {
   padding: 12px 5px;
   font-size: 18px;
   border: none;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid #333333;
   background-color: transparent;
-  color: #8C4C18;
+  color: #000000;
   transition: all 0.3s ease;
   font-family: sans-serif;
 }
@@ -1489,10 +1654,10 @@ header h1:hover {
   border-bottom-color: #D0872E;
 }
 .seccion11-input::-moz-placeholder {
-  color: #ccc;
+  color: #666666;
 }
 .seccion11-input::placeholder {
-  color: #ccc;
+  color: #666666;
 }
 
 .seccion11-submit-button {

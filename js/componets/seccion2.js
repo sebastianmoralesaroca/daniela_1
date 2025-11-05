@@ -10,6 +10,13 @@ function createContainer3() {
     const leftContainer = document.createElement('div');
     leftContainer.className = 'container3-left';
 
+    // Create and add image
+    const leftImage = document.createElement('img');
+    leftImage.src = 'assets/img_1.png';
+    leftImage.alt = 'Imagen descriptiva';
+    leftImage.className = 'container3-left-image';
+    leftContainer.appendChild(leftImage);
+
     // Create right container (60%)
     const rightContainer = document.createElement('div');
     rightContainer.className = 'container3-right';

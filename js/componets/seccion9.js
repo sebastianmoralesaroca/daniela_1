@@ -8,43 +8,31 @@ function createSeccion9() {
 
     // Create main title
     const mainTitle = document.createElement('h2');
-    mainTitle.textContent = 'Elige tu Plan';
+    mainTitle.textContent = 'Plan de Transformación';
     mainTitle.className = 'seccion9-main-title';
 
     // Create subtitle
     const subtitle = document.createElement('p');
-    subtitle.textContent = 'Selecciona el plan que mejor se adapte a ti';
+    subtitle.textContent = 'Todo lo que necesitas para tu transformación personal';
     subtitle.className = 'seccion9-subtitle';
 
     // Create plans container
     const plansContainer = document.createElement('div');
     plansContainer.className = 'seccion9-plans-container';
 
-    // Array of plans
+    // Single plan
     const plans = [
         {
-            name: 'Plan Básico',
-            price: '$297',
-            period: 'Pago único',
+            name: 'Programa DICHOSA',
+            price: '$387 USD',
+            period: 'Pago único / Opcion de cuotas con credito',
             features: [
-                '8 sesiones en vivo de 90 minutos',
-                'Workbook digital completo',
-                'Acceso a grabaciones',
-                'Material adicional incluido',
-                'Soporte vía email'
-            ],
-            isPopular: false
-        },
-        {
-            name: 'Plan Premium',
-            price: '$497',
-            period: 'Pago único',
-            features: [
-                'Todo lo del Plan Básico',
-                'Acompañamiento personalizado vía WhatsApp',
+                '8 sesiones en vivo de 90 minutos con Daniela',
                 'Sesión 1:1 de transformación profunda',
-                'Pack Meditaciones y Audios exclusivos',
-                'Acceso a mini taller Grabado',
+                'Acompañamiento personalizado vía WhatsApp (2 meses)',
+                'Workbook digital completo + ejercicios prácticos',
+                'Pack de meditaciones y audios exclusivos',
+                'Acceso a todas las grabaciones',
                 'Comunidad privada exclusiva',
                 'Certificado de finalización'
             ],
@@ -99,7 +87,7 @@ function createSeccion9() {
         // CTA button
         const ctaButton = document.createElement('button');
         ctaButton.className = 'seccion9-cta-button';
-        ctaButton.textContent = plan.isPopular ? 'Elegir Premium' : 'Elegir Básico';
+        ctaButton.textContent = 'Comenzar mi Transformación';
 
         // Append all elements to card
         planCard.appendChild(planName);

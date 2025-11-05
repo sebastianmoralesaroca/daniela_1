@@ -4,7 +4,7 @@
 /* Seccion4 styles */
 .container4 {
   padding: 80px 10%;
-  background: linear-gradient(135deg, #fff9f0 0%, #ffe8d6 100%);
+  background: url("../assets/img_6.jpg");
 }
 .container4-main-title {
   font-size: 42px;

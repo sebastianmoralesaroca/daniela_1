@@ -8,7 +8,7 @@ function createContainer4() {
 
     // 2. Create main title
     const mainTitle = document.createElement('h1');
-    mainTitle.textContent = '¡Descubre Nuestra Sección Destacada!';
+    mainTitle.textContent = 'Tu Transformación Paso a Paso';
     mainTitle.className = 'container4-main-title'; // Clase para estilos del título principal
 
     // 3. Create secondary container (the main wrapper for content)

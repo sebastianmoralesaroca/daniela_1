@@ -3,11 +3,25 @@
 /* Seccion11 styles - Newsletter */
 .seccion11 {
   padding: 100px 10%;
-  background-color: #ffffff;
+  background-image: url("../../assets/img_3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 500px;
+  position: relative;
+}
+.seccion11::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: 0;
 }
 
 .seccion11-left {
