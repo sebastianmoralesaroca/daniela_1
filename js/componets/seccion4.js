@@ -40,11 +40,11 @@ function createContainer4() {
 
     // Array of 6 texts
     const texts = [
-        '✔️ Tomar consciencia de todo aquello que te ha llevado a crear tu realidad.',
-        '✔️ Resetear tu mente y tu energía emocional para dejar de vivir desde la pequeñez, la culpa, el autosabotaje y el autosacrificio.',
-        '✔️ Reprogramar tus hábitos y pensamientos para elegirte con coherencia cada día.',
-        '✔️ Reencontrarte contigo, con la mujer segura, tranquila y magnética que siempre estuvo ahí.',
-        '✔️ Dejarás de intentar encajar en relaciones que te quedan pequeñas.',
+        ' Tomar consciencia de todo aquello que te ha llevado a crear tu realidad.',
+        ' Resetear tu mente y tu energía emocional para dejar de vivir desde la pequeñez, la culpa, el autosabotaje y el autosacrificio.',
+        ' Reprogramar tus hábitos y pensamientos para elegirte con coherencia cada día.',
+        ' Reencontrarte contigo, con la mujer segura, tranquila y magnética que siempre estuvo ahí.',
+        ' Dejarás de intentar encajar en relaciones que te quedan pequeñas.',
     ];
 
     // Create list items (LI) for each text

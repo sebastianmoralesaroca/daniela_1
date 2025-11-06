@@ -34,7 +34,7 @@ function createSeccion91() {
         },
         {
             name: 'Daniela',
-            text: 'Nunca pensé que podría poner límites sin sentirme culpable. Después de pasar por DICHOSA me di cuenta de que mi problema no era que no supiera amarme, sino que había normalizado darme poco. Ahora me siento más segura, más entera, y por primera vez en mucho tiempo, en paz conmigo misma. Gracias Dani por ayudarme a reencontrarme 💕',
+            text: 'Hermosa, gracias por abrir este espacio. Este método para mí ha sido muy amoroso en el proceso de conocerme, he tomado muchos cursos sin embargo este se ha sentido muy ligero, rico y DICHOSO, incluso en el proceso de mirar heridas y dolores. Gracias por el viaje Dani, sigo transitando.',
             location: 'Australia'
         }
     ];

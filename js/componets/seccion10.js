@@ -18,16 +18,8 @@ function createSeccion10() {
     // Array of FAQs
     const faqs = [
         {
-            question: '¿Cuánto dura el programa DICHOSA?',
-            answer: 'El programa tiene una duración de 2 meses, con 8 sesiones en vivo de 90 minutos cada una. Además, tendrás acceso a todas las grabaciones para que puedas repasar el contenido cuando lo necesites.'
-        },
-        {
             question: '¿Qué pasa si no puedo asistir a alguna sesión en vivo?',
-            answer: 'No te preocupes. Todas las sesiones quedan grabadas y tendrás acceso ilimitado a ellas. Podrás verlas en el momento que mejor te convenga y avanzar a tu propio ritmo.'
-        },
-        {
-            question: '¿Este programa es para mí si nunca he hecho terapia o trabajo personal?',
-            answer: 'Absolutamente sí. DICHOSA está diseñado para mujeres en cualquier etapa de su proceso. No necesitas experiencia previa. Te guiaré paso a paso con ejercicios prácticos y herramientas aplicables desde el día uno.'
+            answer: 'No te preocupes. Todas las sesiones quedan grabadas y tendrás acceso por 3 meses a ellas. Podrás verlas en el momento que mejor te convenga y avanzar a tu propio ritmo.'
         },
         {
             question: '¿Cuánto tiempo necesito para ver resultados reales?',

@@ -27,14 +27,14 @@ function createSeccion9() {
             price: '$387 USD',
             period: 'Pago único / Opcion de cuotas con credito',
             features: [
-                '8 sesiones en vivo de 90 minutos con Daniela',
-                'Sesión 1:1 de transformación profunda',
-                'Acompañamiento personalizado vía WhatsApp (2 meses)',
-                'Workbook digital completo + ejercicios prácticos',
-                'Pack de meditaciones y audios exclusivos',
-                'Acceso a todas las grabaciones',
-                'Comunidad privada exclusiva',
-                'Certificado de finalización'
+                '4 sesiones grupales en vivo de 90 min + acceso a las grabaciones',
+                'Sesión 1:1 de transformación profunda de 50 min con Daniela',
+                'Audios semanales de contenido',
+                'Clases grabadas',
+                '3 workbooks de transformación aplicada: Heridas que iluminan, mentalidad y emociones coherentes, hábitos de una reina',
+                'Acompañamiento vía WhatsApp',
+                'Acceso a la comunidad REINA DICHOSA',
+                'Certificado de finalización REINA DICHOSA'
             ],
             isPopular: true
         }

@@ -52,7 +52,7 @@ function createContainer4() {
     p2_2.className = 'container4-paragraph';
 
     const p2_3 = document.createElement('p');
-    p2_3.textContent = 'Párrafo 3 de la sección 2.';
+    p2_3.textContent = '';
     p2_3.className = 'container4-paragraph';
 
     section2.appendChild(title2);
@@ -69,31 +69,31 @@ function createContainer4() {
     title3.className = 'container4-title';
 
     const p3_1 = document.createElement('p');
-    p3_1.textContent = '❌Estás cansada de dar más de lo que recibes.';
+    p3_1.textContent = '❌ Estás cansada de dar más de lo que recibes.';
     p3_1.className = 'container4-paragraph';
 
     const p3_2 = document.createElement('p');
-    p3_2.textContent = '❌Has intentado cambiar, pero sigues cayendo en los mismos vínculos vacíos.';
+    p3_2.textContent = '❌ Has intentado cambiar, pero sigues cayendo en los mismos vínculos vacíos.';
     p3_2.className = 'container4-paragraph';
 
     const p3_3 = document.createElement('p');
-    p3_3.textContent = '❌Te cuesta poner límites sin sentir culpa.';
+    p3_3.textContent = '❌ Te cuesta poner límites sin sentir culpa.';
     p3_3.className = 'container4-paragraph';
 
     const p3_4 = document.createElement('p');
-    p3_4.textContent = '❌Te comparas, dudas de ti o te adaptas demasiado por miedo a perder.';
+    p3_4.textContent = '❌ Te comparas, dudas de ti o te adaptas demasiado por miedo a perder.';
     p3_4.className = 'container4-paragraph';
 
     const p3_5 = document.createElement('p');
-    p3_5.textContent = '❌Sabes que mereces más, pero no sabes cómo vivirlo en la práctica.';
+    p3_5.textContent = '❌ Sabes que mereces más, pero no sabes cómo vivirlo en la práctica.';
     p3_5.className = 'container4-paragraph';
 
     const p3_6 = document.createElement('p');
-    p3_6.textContent = '❌Sientes que si no sabes algo, pierdes valor.';
+    p3_6.textContent = '❌ Sabes en tu corazón que mereces más, pero no sabes por dónde comenzar a crearlo.';
     p3_6.className = 'container4-paragraph';
 
     const p3_7 = document.createElement('p');
-    p3_7.textContent = '❌Vives con una baja autoestima, camuflada de autosuficiencia.';
+    p3_7.textContent = '❌ Vives con una baja autoestima, camuflada de autosuficiencia y autoimagen, disfrazada de autosuficiencia y empoderamiento.';
     p3_7.className = 'container4-paragraph';
 
     section3.appendChild(title3);

@@ -41,37 +41,10 @@ function createSeccion6() {
         resultsList.appendChild(listItem);
     });
 
-    // Create reflection text section
-    const reflectionSection = document.createElement('div');
-    reflectionSection.className = 'seccion6-reflection';
-
-    const reflectionText1 = document.createElement('p');
-    reflectionText1.textContent = 'Este es el punto donde la mayoría se queda: saben lo que merecen, pero no se atreven a elegirlo.';
-    reflectionText1.className = 'seccion6-reflection-text';
-
-    const reflectionText2 = document.createElement('p');
-    reflectionText2.textContent = 'Si estás leyendo esto, no es casualidad. Es tu alma recordándote que ya no tienes que seguir esperando amor, paz, valoración, porque el amor y la plenitud se crea — y empieza contigo, dentro de tí.';
-    reflectionText2.className = 'seccion6-reflection-text';
-
-    const finalMessage = document.createElement('p');
-    finalMessage.textContent = '🔥 DICHOSA no es un curso. Es un Reseteo de tu identidad, un verdadero antes y después. Un renacimiento. Una decisión. Tu decisión.';
-    finalMessage.className = 'seccion6-final-message';
-
-    reflectionSection.appendChild(reflectionText1);
-    reflectionSection.appendChild(reflectionText2);
-    reflectionSection.appendChild(finalMessage);
-
-    // Create CTA button
-    const ctaButton = document.createElement('button');
-    ctaButton.textContent = 'Sí, quiero transformarme';
-    ctaButton.className = 'seccion6-cta-button';
-
     // Append all elements to container
     container.appendChild(mainTitle);
     container.appendChild(subtitle);
     container.appendChild(resultsList);
-    container.appendChild(reflectionSection);
-    container.appendChild(ctaButton);
 
     // Append to body
     document.body.appendChild(container);

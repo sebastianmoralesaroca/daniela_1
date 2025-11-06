@@ -20,7 +20,7 @@ function createContainer2() {
 
     // Create paragraph
     const paragraph = document.createElement('p');
-    paragraph.textContent = 'Durante 10 semanas, te guiaé paso a paso para liberar las heridas que sabotean tus relaciones, elevar tu energia y construir una relacion segura contigo misma. Aqui aprederas a amarte, elegirte y crear ABSOLUAMENTE TODO desde tu valor.';
+    paragraph.textContent = 'Durante 10 semanas, te guiaré paso a paso para liberar las heridas que sabotean tus relaciones, elevar tu energía y construir una relación segura contigo misma. Aquí aprenderás a amarte, elegirte y crear ABSOLUTAMENTE TODO desde tu valor.';
 
     // Create CTA button
     const ctaButton = document.createElement('button');
