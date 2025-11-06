@@ -24,13 +24,11 @@ function createContainer4() {
     subtitle.textContent = 'En este método vas a:';
     subtitle.className = 'secondary-subtitle'; // Clase para estilos del título pequeño
 
-    // 6. Create logo element (inside secondary div)
+    // 6. Create logo element (inside secondary div) - Emoji de estrella fugaz
     const logoDiv = document.createElement('div');
-    logoDiv.className = 'secondary-logo';
-    const logoImg = document.createElement('img');
-    logoImg.src = 'assets/imagen.png'; // Cambié la ruta/nombre si deseas uno diferente
-    logoImg.alt = 'Logo Descriptivo';
-    logoDiv.appendChild(logoImg);
+    logoDiv.className = 'secondary-logo shooting-star';
+    logoDiv.textContent = '💫';
+    logoDiv.setAttribute('aria-label', 'Estrella Fugaz');
 
     // Append title and logo to their wrapper
     headerWrapper.appendChild(subtitle); // Colocamos el título pequeño
