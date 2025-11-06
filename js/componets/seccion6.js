@@ -23,13 +23,14 @@ function createSeccion6() {
     // Array of results
     const results = [
         'Te sentirás segura de ti misma, sin necesitar validación.',
-        'Tendrás relaciones y entornos donde te sientes elegida, vista y cuidada.',
+        'Habrás aprendido a TRATARTE CON AMOR INCONDICIONAL.',
+        'Tendrás relaciones y entornos que se ajusten a tus estándares, te sentirás vista, valorada, cuidada.',
         'Sabrás ponerte y poner límites con amor y sin culpa.',
         'Recuperarás la calma, el foco y la energía que antes dabas a otros.',
-        'Volverás a sentirte libre, deseada y orgullosa de quién eres.',
-        'Tu pasado ya no tendrá poder sobre ti.',
+        'Volverás a sentirte libre, deseada y orgullosa por ser quién eres.',
+        'Tu pasado ya no tendrá poder alguno sobre tí.',
         'Vas a verte en el espejo y verás a la mujer poderosa que siempre quisiste ser.',
-        'Cada día te sentirás en calma y estable interiormente, a pesar de los movimientos del exterior y los tuyos propios.'
+        'Te sentirás estable interiormente cada día, a pesar de los movimientos del exterior y los tuyos propios.'
     ];
 
     // Create list items

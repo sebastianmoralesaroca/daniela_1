@@ -8,7 +8,7 @@ function createContainer4() {
 
     // Create main title
     const mainTitle = document.createElement('h1');
-    mainTitle.textContent = 'No eres tú. Son tus patrones';
+    mainTitle.textContent = 'No eres tú. Es la identidad que te creaste, y que ya caducó';
     mainTitle.className = 'container4-main-title';
 
     // Create sections container
@@ -24,11 +24,11 @@ function createContainer4() {
     title1.className = 'container4-title';
 
     const p1_1 = document.createElement('p');
-    p1_1.textContent = 'No necesitas más teoría, ni esperar que alguien cambie. Necesitas mirarte sin excusas, ver los patrones que repites y decidir que tu paz y tu valor no se negocian más.';
+    p1_1.textContent = 'No necesitas más teoría, ni esperar que alguien cambie. Necesitas mirarte sin excusas, ver y hacerte cargo con liviandad de esos patrones que repites y elegir una vida en dónde tu Paz y tu Valor no se negocian.';
     p1_1.className = 'container4-paragraph';
 
     const p1_2 = document.createElement('p');
-    p1_2.textContent = 'Si sigues atrayendo vínculos que duelen, es porque hay una parte de ti que aún cree que tiene que ganarse la presencia, la atención, el amor. Y eso termina desgastándote, quitándote brillo y alejándote de ti misma.';
+    p1_2.textContent = 'Si sigues experimentando vínculos que te hacen empequeñecer tu luz, tu potencia, tu grandeza, es porque hay todavía una parte de ti que cree que tiene que ganarse la presencia, la atención, el amor. Y tú sabes cómo ésto termina desgastándote, apagándote y alejándote de ti misma.';
     p1_2.className = 'container4-paragraph';
 
     section1.appendChild(title1);
@@ -44,11 +44,11 @@ function createContainer4() {
     title2.className = 'container4-title';
 
     const p2_1 = document.createElement('p');
-    p2_1.textContent = 'DICHOSA es un método de reordenamiento interno. Vas a pasar de estar sintiéndote insuficiente, sobrecargada y la eterna perseguidora de la "perfección", a transformarte en una mujer conectada contigo misma, con tus necesidades y tu valor. Dejarás de ser influenciable por los acontecimientos de la vida y aprenderás a estar presente para tí.';
+    p2_1.textContent = 'DICHOSA es un método de reordenamiento interno. Vas a pasar de estar sintiéndote insuficiente, sobrecargada y la eterna perseguidora de "la perfección", a transformarte en una mujer conectada contigo misma, con tus necesidades y tu valor. Dejarás de ser influenciable por los acontecimientos de la vida y aprenderás a estar presente para ti.';
     p2_1.className = 'container4-paragraph';
 
     const p2_2 = document.createElement('p');
-    p2_2.textContent = 'Tu nueva identidad será la dicha y el gozo de vivir un éxito real, sin perder tu paz, ni tu esencia.';
+    p2_2.textContent = 'Tu nueva identidad será la dicha y el gozo de vivir un éxito real y completo, sin perder tu Paz, ni tu esencia.';
     p2_2.className = 'container4-paragraph';
 
     const p2_3 = document.createElement('p');

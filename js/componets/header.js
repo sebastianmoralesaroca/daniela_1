@@ -9,13 +9,13 @@ function createHeader() {
     const title = document.createElement('h1');
     title.textContent = 'DICHOSA';
 
-    // Create logo (right side)
+    // Create logo (right side) - Letter D
     const logo = document.createElement('div');
     logo.className = 'logo';
-    const logoImg = document.createElement('img');
-    logoImg.src = 'assets/imagen.png';
-    logoImg.alt = 'Logo';
-    logo.appendChild(logoImg);
+    const logoLetter = document.createElement('span');
+    logoLetter.textContent = 'D';
+    logoLetter.className = 'logo-letter';
+    logo.appendChild(logoLetter);
 
     // Append elements to header
     header.appendChild(title);

@@ -11,6 +11,7 @@ import './componets/seccion8.js';
 import './componets/seccion9.js';
 import './componets/seccion91.js';
 import './componets/seccion10.js';
+// import './componets/seccion10a.js';
 import './componets/seccion11.js';
 import './componets/footer.js';
 

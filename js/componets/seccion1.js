@@ -16,7 +16,7 @@ function createContainer2() {
 
     // Create title
     const title = document.createElement('h2');
-    title.textContent = 'El Métoto para Sanar tus Vinculos y Experimentar una vida que amas';
+    title.textContent = 'El Método para Sanar tus Vinculos y Experimentar una vida que amas';
 
     // Create paragraph
     const paragraph = document.createElement('p');

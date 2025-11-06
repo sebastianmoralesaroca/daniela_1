@@ -5,16 +5,32 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 80px 10%;
-  background: linear-gradient(135deg, #fff9f0 0%, #ffffff 100%);
+  background-image: url("../../assets/img_7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   gap: 60px;
   align-items: center;
   min-height: 600px;
+}
+.container2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 0;
 }
 
 .container2-left {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 .container2-left img {
   width: 100%;
@@ -28,6 +44,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .container2-right h2 {

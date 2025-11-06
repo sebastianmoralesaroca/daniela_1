@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap");
 /* Header styles */
 header {
   display: flex;
@@ -27,17 +28,26 @@ header h1:hover {
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 5px;
   transition: transform 0.3s ease;
 }
 .logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.1) rotate(-5deg);
 }
-.logo img {
-  height: 60px;
-  width: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+
+.logo-letter {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 80px;
+  color: #D0872E;
+  font-weight: 400;
+  line-height: 1;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(140, 76, 24, 0.2);
+}
+.logo:hover .logo-letter {
+  color: #8C4C18;
+  text-shadow: 3px 3px 6px rgba(140, 76, 24, 0.3);
 }
 
 /* Responsive design */
@@ -48,7 +58,7 @@ header h1:hover {
   header h1 {
     font-size: 40px;
   }
-  .logo img {
-    height: 50px;
+  .logo-letter {
+    font-size: 65px;
   }
 }/*# sourceMappingURL=header.css.map */

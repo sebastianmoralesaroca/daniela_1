@@ -8,7 +8,7 @@ function createContainer4() {
 
     // 2. Create main title
     const mainTitle = document.createElement('h1');
-    mainTitle.textContent = 'Tu Transformación Paso a Paso';
+    mainTitle.textContent = 'Tu upgrade paso a paso';
     mainTitle.className = 'container4-main-title'; // Clase para estilos del título principal
 
     // 3. Create secondary container (the main wrapper for content)
@@ -42,11 +42,11 @@ function createContainer4() {
 
     // Array of 6 texts
     const texts = [
-        'Romper los patrones que te mantienen en vínculos donde no eres valorada.',
-        'Resetear tu energía emocional para dejar de vivir desde la culpa y el autosacrificio.',
-        'Reprogramar tus hábitos y pensamientos para elegirte con coherencia cada día.',
-        'Reencontrarte contigo, con la mujer segura, tranquila y magnética que siempre estuvo ahí.',
-        'Vas a dejar de intentar encajar en relaciones que te quedan pequeñas.',
+        '✔️ Tomar consciencia de todo aquello que te ha llevado a crear tu realidad.',
+        '✔️ Resetear tu mente y tu energía emocional para dejar de vivir desde la pequeñez, la culpa, el autosabotaje y el autosacrificio.',
+        '✔️ Reprogramar tus hábitos y pensamientos para elegirte con coherencia cada día.',
+        '✔️ Reencontrarte contigo, con la mujer segura, tranquila y magnética que siempre estuvo ahí.',
+        '✔️ Dejarás de intentar encajar en relaciones que te quedan pequeñas.',
     ];
 
     // Create list items (LI) for each text

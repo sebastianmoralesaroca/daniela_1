@@ -30,8 +30,20 @@ function createSeccion10() {
             answer: 'Absolutamente sí. DICHOSA está diseñado para mujeres en cualquier etapa de su proceso. No necesitas experiencia previa. Te guiaré paso a paso con ejercicios prácticos y herramientas aplicables desde el día uno.'
         },
         {
-            question: '¿Cuál es la diferencia entre el Plan Básico y el Plan Premium?',
-            answer: 'El Plan Básico incluye las 8 sesiones en vivo, workbook digital y acceso a grabaciones. El Plan Premium añade acompañamiento personalizado vía WhatsApp, sesión 1:1, meditaciones exclusivas, acceso a mini taller, comunidad privada y certificado de finalización.'
+            question: '¿Cuánto tiempo necesito para ver resultados reales?',
+            answer: 'Desde las primeras semanas comenzarás a sentir más claridad mental, calma emocional y liviandad interior, porque trabajamos con herramientas que reprograman tus hábitos, pensamientos y vínculos desde la raíz. El programa tiene una duración de 10 semanas, tiempo suficiente para redefinir tu autoconcepto, tu manera de relacionarte y tu forma de crear bienestar real sin exigencia ni sacrificio.'
+        },
+        {
+            question: '¿Y si ya hice terapia, coaching o cursos de sanación antes?',
+            answer: 'Perfecto 🌹 DICHOSA no repite lo que ya has escuchado: aquí aprenderás a integrar lo que sabes con tu cuerpo y tu vida real, vas a Alinearte. No se trata de "seguir sanando", sino de recordar quién eres y volver a habitarte con poder y amor propio, desde lo simple, que es lo que realmente TRANSFORMA. Muchas alumnas que han hecho otros procesos dicen: "por fin entendí cómo aplicar todo lo que aprendí, pero desde la paz."'
+        },
+        {
+            question: 'No tengo mucho tiempo... ¿podré seguir el ritmo del programa?',
+            answer: 'Sí, porque DICHOSA está diseñado para mujeres reales, con agendas llenas, responsabilidades y mil pendientes. No necesitas tener "tiempo libre": solo disposición a elegirte un poco cada día. Las clases y audios están pensados para acompañarte en tu vida cotidiana, y cada herramienta es aplicable en minutos, pero transforma desde la raíz. Recuerda: no se trata de hacer más, sino de hacer distinto —con presencia, conciencia y amor propio.'
+        },
+        {
+            question: '¿Y si ahora no puedo invertir en mí?',
+            answer: 'Entiendo totalmente 💛 también he estado ahí, sin embargo, quiero que te preguntes: ¿cuánto te está costando seguir sintiéndote igual? DICHOSA no es un gasto, es una decisión de devolver tu energía hacia ti, para construir una vida emocional y materialmente abundante. Además, tienes la posibilidad de pago mensual, porque creemos que el crecimiento no debería postergarse por miedo o escasez, de ser así ponte en contacto de forma personal desde mi Instagram. Ésta inversión será la más sabia que hagas: invertir en la mujer que sostendrá todo lo demás.'
         }
     ];
 

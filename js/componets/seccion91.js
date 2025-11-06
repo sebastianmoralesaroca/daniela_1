@@ -8,12 +8,12 @@ function createSeccion91() {
 
     // Create main title
     const mainTitle = document.createElement('h2');
-    mainTitle.textContent = 'Lo que dicen las mujeres que ya se transformaron';
+    mainTitle.textContent = 'Lo que dicen las Mujeres que ya se eligieron';
     mainTitle.className = 'seccion91-main-title';
 
     // Create subtitle
     const subtitle = document.createElement('p');
-    subtitle.textContent = 'Historias reales de mujeres que tomaron la decisión de elegirse';
+    subtitle.textContent = 'Historias reales de mujeres que decidieron cambiar su realidad.';
     subtitle.className = 'seccion91-subtitle';
 
     // Create testimonials container
@@ -23,19 +23,19 @@ function createSeccion91() {
     // Array of testimonials
     const testimonials = [
         {
-            name: 'Juanita Perez 1',
+            name: 'Mónica Marengo Salas.',
             text: 'Hola chicas buenas tardes 😊 quería compartirles un poco de mi experiencia de estos días, estoy muy sorprendida por el nivel de esta mentoría la verdad, me di cuenta de que hace unos meses atrás estuve pagando terapia psicológica y no tuve ningún avancé y ahora con la mentoría que da Daniela siento que en verdad tengo progreso, además de impulsarme a indagar dentro de mi y tomar conciencia, algo que no había hecho nunca y que la psicóloga nunca logro, los ejercicios, la mentoría en si para mi ha sido muy fructuosa; Dani te agradezco de corazón 🙌🏽🙌🏽✨ espero que muchas mujeres tengan el agrado de toparse contigo ❤️ y las ayudes en su camino ✨',
             location: 'La Serena, chile'
         },
         {
-            name: 'Juanita Perez 4',
+            name: 'Jimena Estévez.',
             text: 'Dani es una mujer que acompaña a las mujeres a recuperar su valor personal, ella a través de sus sensibilidad, su experiencia y mucha empatía consigue dar herramientas muy profundas de una manera liviana, con mucha amorosidad, te ayuda a recuperar la autoestima, a recuperar las partes para volver a integrarnos y volver a nuestra esencia. Te das cuenta cuando ella habla con una autoridad y realmente como algo que lo tiene súper integrado, te das cuenta que no es un un discurso o una técnica aprendida. Me ha dado mucha claridad y mucha paz en mi proceso de sanación. Muchas gracias!',
-            location: 'Buenos Aires, Argentina'
+            location: 'Argentina'
         },
         {
-            name: 'Juanita Perez 6',
+            name: 'Daniela',
             text: 'Nunca pensé que podría poner límites sin sentirme culpable. Después de pasar por DICHOSA me di cuenta de que mi problema no era que no supiera amarme, sino que había normalizado darme poco. Ahora me siento más segura, más entera, y por primera vez en mucho tiempo, en paz conmigo misma. Gracias Dani por ayudarme a reencontrarme 💕',
-            location: 'Coquimbo, Chile'
+            location: 'Australia'
         }
     ];
 

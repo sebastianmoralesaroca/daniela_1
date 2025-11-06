@@ -46,19 +46,18 @@ function createFooter() {
     centerSection.appendChild(socialTitle);
     centerSection.appendChild(instagramLink);
 
-    // RIGHT SECTION: Logo from header
+    // RIGHT SECTION: Logo from header - Letter D
     const rightSection = document.createElement('div');
     rightSection.className = 'footer-right';
 
     const footerLogo = document.createElement('div');
     footerLogo.className = 'footer-logo';
 
-    const logoImg = document.createElement('img');
-    logoImg.src = 'assets/imagen.png';
-    logoImg.alt = 'Logo';
-    logoImg.className = 'footer-logo-img';
+    const logoLetter = document.createElement('span');
+    logoLetter.textContent = 'D';
+    logoLetter.className = 'footer-logo-letter';
 
-    footerLogo.appendChild(logoImg);
+    footerLogo.appendChild(logoLetter);
     rightSection.appendChild(footerLogo);
 
     // Append all sections to footer content
