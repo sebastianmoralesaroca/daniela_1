@@ -25,7 +25,7 @@ function createFooter() {
     centerSection.className = 'footer-center';
 
     const socialTitle = document.createElement('h3');
-    socialTitle.textContent = 'Síguenos';
+    socialTitle.textContent = 'Sígueme';
     socialTitle.className = 'footer-social-title';
 
     // Create Instagram link

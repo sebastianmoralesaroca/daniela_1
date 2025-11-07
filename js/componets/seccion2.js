@@ -32,7 +32,7 @@ function createContainer3() {
 
     // Create text paragraph
     const text = document.createElement('p');
-    text.textContent = 'Has intentado sanar, entender, soltar... pero sigues atrayendo relaciones y situaciones donde terminas dando más de lo que recibes. Y aunque parezca fuerte, exitosa, grandiosa... Por dentro te sientes agotada y confundida, harta de los discursos del Self Care y con la sensación de que el amor y el éxito siempre tienen un precio demasiado alto para ti.';
+    text.textContent = 'Has intentado sanar, entender, soltar... pero sigues atrayendo relaciones y situaciones donde terminas dando más de lo que recibes. Y aunque parezcas fuerte, exitosa, grandiosa... Por dentro te sientes agotada y confundida, harta de los discursos del Self Care y con la sensación de que el amor y el éxito siempre tienen un precio demasiado alto para ti.';
     text.className = 'container3-text';
 
     // Append elements to content wrapper

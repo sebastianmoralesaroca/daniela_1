@@ -23,6 +23,7 @@ function createSeccion11() {
     // Create form
     const form = document.createElement('form');
     form.className = 'seccion11-form';
+    form.id = 'newsletter-form';
 
     // Create name input group
     const nameGroup = document.createElement('div');
@@ -36,7 +37,7 @@ function createSeccion11() {
     const nameInput = document.createElement('input');
     nameInput.type = 'text';
     nameInput.id = 'newsletter-name';
-    nameInput.name = 'name';
+    nameInput.name = 'firstName'; // Cambiado para Mailchimp
     nameInput.placeholder = 'Ingresa tu nombre';
     nameInput.className = 'seccion11-input';
     nameInput.required = true;
@@ -56,7 +57,7 @@ function createSeccion11() {
     const lastnameInput = document.createElement('input');
     lastnameInput.type = 'text';
     lastnameInput.id = 'newsletter-lastname';
-    lastnameInput.name = 'lastname';
+    lastnameInput.name = 'lastName'; // Cambiado para Mailchimp
     lastnameInput.placeholder = 'Ingresa tu apellido';
     lastnameInput.className = 'seccion11-input';
     lastnameInput.required = true;
@@ -76,7 +77,7 @@ function createSeccion11() {
     const emailInput = document.createElement('input');
     emailInput.type = 'email';
     emailInput.id = 'newsletter-email';
-    emailInput.name = 'email';
+    nameInput.name = 'email';
     emailInput.placeholder = 'tu@email.com';
     emailInput.className = 'seccion11-input';
     emailInput.required = true;
@@ -90,17 +91,49 @@ function createSeccion11() {
     submitButton.textContent = 'Suscribirme';
     submitButton.className = 'seccion11-submit-button';
 
-    // Add form submit event
+    // Add form submit event with Zapier integration
     form.addEventListener('submit', function(e) {
         e.preventDefault();
-        // Aquí puedes agregar la lógica para enviar el formulario
-        console.log('Form submitted:', {
-            name: nameInput.value,
-            lastname: lastnameInput.value,
-            email: emailInput.value
+
+        // Deshabilitar botón mientras se envía
+        submitButton.disabled = true;
+        submitButton.textContent = 'Enviando...';
+
+        // Preparar datos para Zapier
+        const formData = {
+            firstName: nameInput.value,
+            lastName: lastnameInput.value,
+            email: emailInput.value,
+            timestamp: new Date().toISOString(),
+            source: 'Landing Page DICHOSA'
+        };
+
+        // IMPORTANTE: Reemplaza esta URL con la que te dio Zapier
+        const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/25286460/uslrfkh/';
+
+        // Enviar datos a Zapier
+        fetch(zapierWebhookURL, {
+            method: 'POST',
+            mode: 'no-cors', // Importante para evitar errores CORS
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(() => {
+            // Con mode: 'no-cors', siempre llegará aquí
+            alert('¡Gracias por suscribirte! 🎉\n\nTe hemos agregado a nuestra lista de Newsletter DICHOSA.');
+            form.reset();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo.');
+        })
+        .finally(() => {
+            // Rehabilitar botón
+            submitButton.disabled = false;
+            submitButton.textContent = 'Suscribirme';
         });
-        alert('¡Gracias por suscribirte!');
-        form.reset();
     });
 
     // Append inputs to form
