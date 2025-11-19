@@ -21,9 +21,8 @@ function createPortada() {
     portada.appendChild(countdown);
     document.body.appendChild(portada);
 
-    // Set target date (example: 30 days from now)
-    const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 30);
+    // Set target date: January 15, 2026 at 23:59:59
+    const targetDate = new Date(2026, 0, 15, 23, 59, 59);
 
     // Countdown logic
     function updateCountdown() {
