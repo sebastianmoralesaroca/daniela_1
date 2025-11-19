@@ -23,7 +23,8 @@ function createContainer2() {
     paragraph.textContent = 'Durante 10 semanas, te guiaré paso a paso para liberar las heridas que sabotean tus relaciones, elevar tu energía y construir una relación segura contigo misma. Aquí aprenderás a amarte, elegirte y crear ABSOLUTAMENTE TODO desde tu valor.';
 
     // Create CTA button
-    const ctaButton = document.createElement('button');
+    const ctaButton = document.createElement('a');
+    ctaButton.href = 'https://hotmart.com/es/marketplace/productos/programa-dichosa/S102895938F';
     ctaButton.textContent = '¡Quiero Sanar mis Vínculos!';
     ctaButton.className = 'container2-cta-button';
 

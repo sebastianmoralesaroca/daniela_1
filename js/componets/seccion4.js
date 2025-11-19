@@ -55,7 +55,8 @@ function createContainer4() {
     });
 
     // Create CTA button
-    const ctaButton = document.createElement('button');
+    const ctaButton = document.createElement('a');
+    ctaButton.href = 'https://hotmart.com/es/marketplace/productos/programa-dichosa/S102895938F';
     ctaButton.textContent = 'Sí, quiero vivir DICHOSA';
     ctaButton.className = 'secondary-cta-button';
 

@@ -85,7 +85,8 @@ function createSeccion9() {
         });
 
         // CTA button
-        const ctaButton = document.createElement('button');
+        const ctaButton = document.createElement('a');
+        ctaButton.href = 'https://pay.hotmart.com/S102895938F?bid=1763570936786';
         ctaButton.className = 'seccion9-cta-button';
         ctaButton.textContent = 'Comenzar mi Transformación';
 

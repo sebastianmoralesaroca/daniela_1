@@ -304,6 +304,8 @@ header h1:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
 }
 .container2-cta-button:hover {
   background-color: #8C4C18;
@@ -667,6 +669,7 @@ header h1:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: none;
 }
 .container4-secondary .secondary-cta-button:hover {
   background-color: #8C4C18;
@@ -910,6 +913,8 @@ header h1:hover {
   padding: 20px 60px;
   font-size: 20px;
   letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
 }
 .seccion7-cta-button:hover {
   background-color: #8C4C18;
@@ -1225,6 +1230,8 @@ header h1:hover {
   letter-spacing: 0.5px;
   width: 100%;
   max-width: 250px;
+  text-decoration: none;
+  display: inline-block;
 }
 .seccion9-cta-button:hover {
   background-color: #8C4C18;
@@ -1286,6 +1293,34 @@ header h1:hover {
     font-size: 16px;
   }
 }
+/* Seccion10a styles - CTA button */
+.seccion10a-cta-button {
+  background-color: #D0872E;
+  color: white;
+  border: none;
+  padding: 20px 60px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(208, 135, 46, 0.3);
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+.seccion10a-cta-button:hover {
+  background-color: #8C4C18;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(208, 135, 46, 0.4);
+}
+.seccion10a-cta-button:active {
+  transform: translateY(-1px);
+}
+
 /* Seccion91 styles - Testimonios */
 .seccion91 {
   padding: 100px 10%;

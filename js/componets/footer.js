@@ -30,7 +30,7 @@ function createFooter() {
 
     // Create Instagram link
     const instagramLink = document.createElement('a');
-    instagramLink.href = 'https://instagram.com'; // Reemplaza con tu URL de Instagram
+    instagramLink.href = 'https://www.instagram.com/reina.dichosa/?igsh=dmJoazduemhoY2E5#'; // Reemplaza con tu URL de Instagram
     instagramLink.target = '_blank';
     instagramLink.rel = 'noopener noreferrer';
     instagramLink.className = 'footer-social-link';

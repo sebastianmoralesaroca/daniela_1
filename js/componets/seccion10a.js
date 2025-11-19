@@ -52,7 +52,7 @@ function createSeccion10a() {
 
     // Create CTA button
     const ctaButton = document.createElement('a');
-    ctaButton.href = '#'; // Replace with actual link
+    ctaButton.href = 'https://www.google.com'; // Replace with actual link
     ctaButton.className = 'seccion10a-cta-button';
 
     const buttonSpan = document.createElement('span');

@@ -26,7 +26,8 @@ function createSeccion7() {
     finalMessage.className = 'seccion7-final-message';
 
     // Create CTA button
-    const ctaButton = document.createElement('button');
+    const ctaButton = document.createElement('a');
+    ctaButton.href = 'https://hotmart.com/es/marketplace/productos/programa-dichosa/S102895938F';
     ctaButton.textContent = 'Sí, elijo transformarme ahora';
     ctaButton.className = 'seccion7-cta-button';
 
